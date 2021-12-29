@@ -1,5 +1,58 @@
-* {
-    font-color: blue;
-    font-size: x-large;
-    background-color: blanchedalmond;
+.header {
+    outline: 2px solid blue;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding-left: 18%;
+    padding-top: 5px;
+
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 18px;
 }
+
+
+
+.top {
+    outline: 2px solid red;
+    background-color: #1f2937;
+    color: white;
+
+}
+
+.body {
+    outline: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box-one, .box-two, .box-three, .box-four {
+    padding: 50px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+
+
+.footer {
+    outline: 2px solid green;
+    background-color: #1f2937;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: #f9Faf8;
+    font-size: 18px;
+}
+
