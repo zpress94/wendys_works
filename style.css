@@ -1,58 +1,126 @@
+* {
+    font-family: fantasy;
+    margin: 0;
+}
 .header {
-    outline: 2px solid blue;
     background-color: #1f2937;
     color: #F9FAF8;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    padding-left: 18%;
-    padding-top: 5px;
-
-
     display: flex;
-    justify-content: flex-start;
-    gap: 18px;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 200px;
+    padding-top: 5px;
 }
 
+.title {
+    font-size: 24px;
+    font-weight: 600;
+}
 
+.links {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    
+}
 
 .top {
-    outline: 2px solid red;
     background-color: #1f2937;
     color: white;
-
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 145px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
-.body {
-    outline: 2px solid black;
+.box-left {
     display: flex;
     flex-direction: column;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
-.boxes{
+button {
+    width: 70px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #3882F6;
+}
+
+.box-right {
+    background-color: lightslategray;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    align-items: center;
 }
 
-.box-one, .box-two, .box-three, .box-four {
-    padding: 50px;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    background-color: lightgray;
-    border-radius: 25px;
+a {
+    text-decoration: none;
+    color: #f9Faf8;
+}
+
+/* everything above is the top 3rd or so of the page
+below is middle */
+
+.middle {
+    padding-bottom: 230px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.title-two{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+/* this is just to customize the boxes, copied to boxtext so it would match. probably an easier way to do it */ 
+.box {
+    border: 3px solid blue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.boxtext {
+    width: 100px;
+    height: 100px;
+    padding: 35px;
 }
 
 
-.footer {
+
+
+/*.footer {
     outline: 2px solid green;
     background-color: #1f2937;
     color: white;
 
 }
 
-a {
-    text-decoration: none;
-    color: #f9Faf8;
-    font-size: 18px;
-}
 
+*/
