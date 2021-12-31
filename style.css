@@ -2,6 +2,12 @@
     font-family: fantasy;
     margin: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     background-color: #1f2937;
     color: #F9FAF8;
@@ -9,7 +15,7 @@
     justify-content: space-between;
     padding-right: 30px;
     padding-left: 200px;
-    padding-top: 5px;
+    padding-top: 5px; 
 }
 
 .title {
@@ -35,6 +41,11 @@
     padding-bottom: 150px;
 }
 
+.fuck {
+    display: flex;
+    flex-direction: column;
+}
+
 .box-left {
     display: flex;
     flex-direction: column;
@@ -42,12 +53,13 @@
     font-weight: bolder;
 }
 
-button {
-    width: 70px;
-    height: 25px;
-    border-radius: 25px;
+
+
+#button1{
     background-color: #3882F6;
-    color: #F9FAF8;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
 }
 
 .box-right {
@@ -127,9 +139,46 @@ below is middle */
 }
 
 
+.signup {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    border-radius: 8px; 
+    width: 600px; 
+    height: 1.3in;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    color: white;
+}
 
 
+#button2 {
+    background-color: white;
+    color: #3882F6;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: 450px;
+    border-radius: 10px;
+}
 
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 30px;
+}
 
 
 
