@@ -1,4 +1,137 @@
-* {
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.container-one {
+    background-color: #1f2937;
+    height: 500px; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+
+.header-left {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-right {
+    padding-top: 10px;
+    gap: 15px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top {
+    padding-left: 300px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
+
+.top-left-one {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.top-left-two {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.top-right{
+    background-color: gray;
+    margin-top: 80px;
+    margin-right: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-two {
+    background-color: white;
+    height: 400px;
+}
+
+.container-three {
+    background-color: #e5e7eb;
+    height: 300px;   
+}
+
+.container-four {
+    background-color: white;
+    height: 200px;
+}
+
+.container-five {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: white;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
     font-family: fantasy;
     margin: 0;
 }
@@ -77,8 +210,8 @@ a {
     color: #f9Faf8;
 }
 
-/* everything above is the top 3rd or so of the page
-below is middle */
+ everything above is the top 3rd or so of the page
+below is middle 
 
 .middle {
     padding-bottom: 200px;
@@ -103,7 +236,7 @@ below is middle */
     text-align: center;
 }
 
-/* this is just to customize the boxes, copied to boxtext so it would match. probably an easier way to do it */ 
+/* this is just to customize the boxes, copied to boxtext so it would match. probably an easier way to do it  
 .boxes {
     border: 3px solid blue;
     width: 100px;
@@ -124,7 +257,7 @@ below is middle */
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
-    /* try padding on .btext */
+    try padding on .btext 
     text-indent: 50px;
     font-size: 30px;
     color: #1f2937;
@@ -179,7 +312,7 @@ below is middle */
     text-align: center;
     font-size: 15px;
     padding: 30px;
-}
+}*/
 
 
 
