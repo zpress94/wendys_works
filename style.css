@@ -70,9 +70,63 @@ a {
     align-items: center;
 }
 
+.top-left-button {
+    text-align: right;
+}
+
+#b1 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid 1px #3882f6;
+}
+
 .container-two {
     background-color: white;
     height: 400px;
+}
+
+.c2-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.c2-p2 {
+    padding-top: 30px;
+}
+
+.c2-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 45px;
+}
+
+.c2-box {
+    border: 2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c2-description-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.c2-desc {
+    width: 150px; 
+    text-align: center
 }
 
 .container-three {
@@ -97,222 +151,4 @@ a {
     color: white;
     font-size: large;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* * {
-    font-family: fantasy;
-    margin: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-.header {
-    background-color: #1f2937;
-    color: #F9FAF8;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 30px;
-    padding-left: 200px;
-    padding-top: 5px; 
-}
-
-.title {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.links {
-    display: flex;
-    gap: 15px;
-    font-size: 18px;
-    
-}
-
-.top {
-    background-color: #1f2937;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 145px;
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
-
-.box-left {
-    display: flex;
-    flex-direction: column;
-    font-size: 48px;
-    font-weight: bolder;  
-}
-
-.box-left-text {
-    padding-bottom: 20px;
-    width: 375px;
-    
-}
-
-#button1{
-    background-color: #3882F6;
-    color: white;
-    border-radius: 10px;
-    width: 100px;
-    font-size: 15px;
-}
-
-.box-right {
-    background-color: lightslategray;
-    width: 400px;
-    height: 250px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-a {
-    text-decoration: none;
-    color: #f9Faf8;
-}
-
- everything above is the top 3rd or so of the page
-below is middle 
-
-.middle {
-    padding-bottom: 200px;
-    margin-top: 70px;
-    display: flex;
-    flex-direction: column;
-   
-}
-
-.title-two{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 100px;
-    font-size: 36px;
-    font-weight: 600;
-}
-
-.help {
-    display: flex;
-    justify-content: center;
-    gap: 35px;
-    text-align: center;
-}
-
-/* this is just to customize the boxes, copied to boxtext so it would match. probably an easier way to do it  
-.boxes {
-    border: 3px solid blue;
-    width: 100px;
-    height: 100px;
-    background-color: lightskyblue;
-    padding: 35px;
-    border-radius: 15px;
-}
-
-.quote {
-    background-color: #e5e7eb;
-    height: 340px;
-    display: flex;
-    flex-direction: column;
-}
-
-.quote-text {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    try padding on .btext 
-    text-indent: 50px;
-    font-size: 30px;
-    color: #1f2937;
-}
-
-.quote-author {
-    padding-right: 50px;
-    text-align: right;
-    color: #1f2937;
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-
-.signup {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bluebox {
-    background-color: #3882F6;
-    border-radius: 8px; 
-    width: 600px; 
-    height: 1.3in;
-    font-size: xx-large;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-right: 30px;
-    color: white;
-}
-
-
-#button2 {
-    background-color: white;
-    color: #3882F6;
-    width: 100px;
-    margin-bottom: 20px;
-    margin-left: 450px;
-    border-radius: 10px;
-    font-size: 15px;
-}
-
-
-.footer{
-    background-color: #1f2937;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    padding: 30px;
-}*/
-
-
 
