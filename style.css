@@ -13,7 +13,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-left: 300px;
+    padding-left: 200px;
     padding-right: 80px;
     padding-top: 20px;
 }
@@ -35,7 +35,7 @@ a {
 }
 
 .top {
-    padding-left: 300px;
+    padding-left: 200px;
     padding-right: 80px;
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,7 @@ a {
 .top-right{
     background-color: gray;
     margin-top: 80px;
-    margin-right: 250px;
+    margin-right: 100px;
     width: 300px;
     display: flex;
     justify-content: center;
